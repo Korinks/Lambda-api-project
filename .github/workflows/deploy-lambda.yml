@@ -19,7 +19,7 @@ jobs:
         python-version: 3.9
 
     - name: Zip Lambda function
-      run: zip lambda_function_payload.zip handler.py
+       run: zip lambda_function_payload.zip lambda_function.py
 
     - name: Set up AWS CLI
       uses: aws-actions/configure-aws-credentials@v2
