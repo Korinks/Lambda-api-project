@@ -1,8 +1,10 @@
-# Ignore Terraform directories and files
+# .gitignore
 .terraform/
-*.tfstate
-*.tfstate.backup
-crash.log
 *.zip
+*.exe
+*.tar.gz
+*.bin
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
 
-.terraform/
